@@ -7,7 +7,7 @@ class NetworkHelper {
 
   NetworkHelper(this.url);
 
-  Future<void> getData() async {
+  Future getData() async {
 
     var response = await http.get(url);
 
